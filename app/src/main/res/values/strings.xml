@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Makanan </string>
+    <string name="nasi_goreng">Nasi Goreng</string>
+    <string name="sate_ayam">Sate</string>
+    <string name="gado_gado">Gado-Gado</string>
+    <string name="rendang">Rendang</string>
+    <string name="bakso">Bakso</string>
+    <string name="mie_ayam">Mie Ayam</string>
+    <string name="ayam_goreng">Ayam Goreng</string>
+    <string name="soto">Soto</string>
+    <string name="pempek">Pempek</string>
+
+    <!-- Food Descriptions -->
+    <string name="description_nasi_goreng">Nasi Goreng adalah hidangan nasi goreng khas Indonesia yang dimasak dengan kecap manis, telur, dan bumbu rempah.</string>
+    <string name="description_sate_ayam">Sate adalah daging yang ditusuk dan dipanggang, biasanya disajikan dengan saus kacang atau kecap manis.</string>
+    <string name="description_gado_gado">Gado-Gado adalah salad sayuran yang disiram dengan saus kacang yang gurih dan lezat.</string>
+    <string name="description_rendang">Rendang adalah daging sapi yang dimasak dengan santan dan bumbu khas Minang hingga empuk dan beraroma.</string>
+    <string name="description_bakso">Bakso adalah bola daging yang direbus, biasanya disajikan dengan kuah kaldu yang lezat.</string>
+    <string name="description_mie_ayam">Mie Ayam adalah mie yang disajikan dengan potongan ayam berbumbu dan kuah yang gurih.</string>
+    <string name="description_ayam_goreng">Ayam Goreng adalah ayam yang digoreng dengan bumbu kuning, renyah di luar dan empuk di dalam.</string>
+    <string name="description_soto">Soto adalah sup dengan bumbu rempah yang khas, berisi daging atau ayam, dan sering disajikan dengan nasi atau lontong.</string>
+    <string name="description_pempek">Pempek adalah makanan khas Palembang yang terbuat dari ikan dan tepung, disajikan dengan kuah cuka yang asam manis.</string>
+    <string name="description">Deskripsi :</string>
+    <string name="expand_button_content_description">Melihat lebih banyak informasi tentant makanan.</string>
+</resources>
