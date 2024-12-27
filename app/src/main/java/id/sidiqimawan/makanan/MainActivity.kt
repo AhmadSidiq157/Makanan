@@ -40,7 +40,7 @@ fun MakananApp() {
 
     // NavHost dengan berbagai destinasi
     NavHost(navController = navController, startDestination = "food_list") {
-        // Destinasi untuk daftar makanan
+        // untuk daftar makanan
         composable("food_list") {
             FoodListScreen(
                 onAddToCart = { makanan, jumlah ->
@@ -57,7 +57,7 @@ fun MakananApp() {
             )
         }
 
-        // Destinasi untuk keranjang belanja
+        // untuk keranjang belanja
         composable("cart") {
             CartScreen(
                 cartItems = keranjangBelanja,
@@ -71,7 +71,7 @@ fun MakananApp() {
             )
         }
 
-        // Destinasi untuk layar pembayaran
+        // untuk layar pembayaran
         composable("payment/{totalHarga}") { backStackEntry ->
             val totalHarga = backStackEntry.arguments?.getString("totalHarga")?.toInt() ?: 0
             Pembayaran(
@@ -89,7 +89,7 @@ fun MakananApp() {
             )
         }
 
-        // Destinasi untuk layar detail pemesanan
+        // untuk layar detail pemesanan
         composable("order_detail/{nama}/{metodePembayaran}") { backStackEntry ->
             val nama = backStackEntry.arguments?.getString("nama") ?: "Tidak Diketahui" // Ambil nama dari argumen navigasi
             val metodePembayaran = backStackEntry.arguments?.getString("metodePembayaran") ?: "Tidak Diketahui" // Ambil metode pembayaran
